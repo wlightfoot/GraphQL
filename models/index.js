@@ -1,6 +1,6 @@
 import Sequelize from 'sequelize';
 
-const sequelize = new Sequelize('SampleDb','Warren','Call2017', {
+const sequelize = new Sequelize('SampleDb','username','password', {
   host: 'localhost',
   dialect: 'mssql',
   port: 1433,
